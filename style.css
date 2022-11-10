@@ -1,0 +1,17 @@
+/************** HEADER **************/
+header {
+    background-color: tomato;
+    padding: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 14rem;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 4rem;
+}
