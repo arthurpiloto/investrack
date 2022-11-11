@@ -1,5 +1,7 @@
 :root {
     font-size: 62.5%;
+    --brand-light-gray: #F2F2F2;
+    --paragraph: #495057;
 }
 
 * {
