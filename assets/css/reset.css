@@ -1,7 +1,12 @@
 :root {
     font-size: 62.5%;
     --brand-light-gray: #F2F2F2;
+    --brand-black: #0D0D0D;
+    --brand-white: #FFFFFF;
+    --brand-blue: #66B0F0;
+    --brand-blue-hover: #C5E3FC;
     --paragraph: #495057;
+    --headline: #0A0B0C;
 }
 
 * {

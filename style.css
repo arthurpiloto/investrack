@@ -26,7 +26,6 @@ header .nav-bar .container-link a:hover {
 }
 
 header .button-invista {
-    background: none;
     padding: 1rem 2.4rem;
     border: .1rem solid var(--paragraph);
     border-radius: 4rem;
@@ -37,4 +36,52 @@ header .button-invista {
 header .button-invista:hover {
     background-color: var(--paragraph);
     color: white;
+}
+
+/************** MAIN **************/
+/**** HOME ****/
+main #home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* top and bottom | left and right */
+    padding: 8.2rem 20rem;
+}
+
+main #home .home-text-container {
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+}
+
+main #home .home-text-container .home-welcome-text {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--brand-blue);
+}
+
+main #home .home-text-container .home-title {
+    font-weight: normal;
+    font-size: 5.2rem;
+    color: var(--headline);
+    width: 60rem;
+}
+
+main #home .home-text-container .home-subtitle {
+    font-weight: normal;
+    font-size: 1.8rem;
+    color: var(--paragraph);
+    width: 65rem;
+}
+
+main #home .home-text-container .home-button-invista {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    padding: 1.6rem;
+    width: fit-content;
+    border-radius: 4rem;
+    background-color: var(--brand-blue);
+    color: var(--brand-white);
 }
