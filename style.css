@@ -44,8 +44,8 @@ main #home {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* top and bottom | left and right */
     padding: 8.2rem 20rem;
+    background-color: var(--brand-light-gray);
 }
 
 main #home .home-text-container {
@@ -84,4 +84,74 @@ main #home .home-text-container .home-button-invista {
     border-radius: 4rem;
     background-color: var(--brand-blue);
     color: var(--brand-white);
+}
+
+/**** ABOUT US ****/
+main #about-us {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7rem;
+    background-color: var(--brand-white);
+    padding: 8rem 0;
+}
+
+main #about-us .about-us-mini-title {
+    font-size: 1.4rem;
+    color: var(--brand-blue);
+}
+
+main #about-us .about-us-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20rem;
+    width: 100%;
+}
+
+main #about-us .about-us-info-container .about-us-text-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.4rem;
+    width: 60rem;
+}
+
+main #about-us .about-us-info-container .about-us-text-container .about-us-title {
+    font-size: 2.4rem;
+    color: var(--headline);
+}
+
+main #about-us .about-us-info-container .about-us-text-container .about-us-text {
+    font-size: 1.8rem;
+    text-align: justify;
+    color: var(--paragraph);
+}
+
+main #about-us .about-us-info-container .about-us-text-container .about-us-text a {
+    font-size: 1.8rem;
+    text-decoration: underline;
+    color: var(--paragraph);
+}
+
+main #about-us .about-us-contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5.6rem;
+}
+
+main #about-us .about-us-contact-container i {
+    font-size: 4rem;
+    font-weight: 200;
+    color: var(--brand-blue);
+}
+
+main #about-us .about-us-contact-container .about-us-divider {
+    width: .2rem;
+    height: 5.6rem;
+    border-radius: .2rem;
+    background-color: var(--paragraph);
 }
