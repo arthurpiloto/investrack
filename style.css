@@ -7,31 +7,34 @@ header {
     justify-content: space-between;
 }
 
-.logo {
+header .logo-link .logo {
     width: 12rem;
 }
 
-.nav-bar {
+header .nav-bar {
     display: flex;
     gap: 4rem;
 }
 
-.container-link a {
+header .nav-bar .container-link a {
     color: var(--paragraph);
     font-weight: 400;
 }
 
-.container-link .home-link {
+header .nav-bar .container-link a:hover {
     font-weight: bold;
 }
 
-.button-invista {
+header .button-invista {
     background: none;
     padding: 1rem 2.4rem;
     border: .1rem solid var(--paragraph);
     border-radius: 4rem;
+    color: var(--paragraph);
+    transition: .7ms ease;
 }
 
-.button-invista .text-invista {
-    color: var(--paragraph);
+header .button-invista:hover {
+    background-color: var(--paragraph);
+    color: white;
 }
