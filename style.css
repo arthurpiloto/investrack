@@ -157,3 +157,66 @@ main #about-us .about-us-contact-container .about-us-divider {
 }
 
 /**** INVESTMENTS ****/
+main #investments {
+    background-color: var(--brand-light-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    padding: 8rem 20rem;
+}
+
+main #investments .investments-mini-title {
+    font-size: 1.4rem;
+    color: var(--brand-blue);
+}
+
+main #investments .investments-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+main #investments .investments-info-container .investments-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+}
+
+main #investments .investments-info-container .investments-cards-container .investments-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.6rem;
+    padding: 2.4rem;
+    border: .1rem solid var(--brand-blue-hover);
+}
+
+/* main #investments .investments-info-container .investments-card:hover {
+    background-color: var(--brand-blue-hover);
+    border-color: var(--brand-blue);
+}
+
+main #investments .investments-info-container .investments-card svg:hover circle {
+    fill: var(--brand-blue);
+}
+
+main #investments .investments-info-container .investments-card svg:hover path {
+    stroke: #C5E3FC;
+} */
+
+main #investments .investments-info-container .investments-cards-container .investments-card .investments-card-tile {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--headline);
+}
+
+main #investments .investments-info-container .investments-cards-container .investments-card .investments-card-description{
+    font-size: 1.6rem;
+    color: var(--paragraph);
+    width: 45rem;
+}
